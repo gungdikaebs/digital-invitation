@@ -45,6 +45,7 @@ body {
 .hero h4 span {
   font-style: italic;
 }
+
 .hero p {
   font-size: 1.4rem;
 }
@@ -54,6 +55,7 @@ body {
   background-color: white;
   box-shadow: var(--shadow);
 }
+
 .hero a:hover {
   color: white;
   background-color: var(--pink);
@@ -111,11 +113,13 @@ body {
 .home .couple {
   margin-top: 100px;
 }
+
 .home .couple h3 {
   font-family: "Sacramento";
   font-size: 2.4rem;
   color: var(--pink);
 }
+
 .home .couple img {
   width: 100%;
 }
@@ -197,6 +201,7 @@ hr {
   margin-top: 1rem;
   position: relative;
 }
+
 .peserta::before {
   content: "";
   top: 0;
@@ -206,6 +211,7 @@ hr {
   background-color: #ccc;
   left: 50%;
 }
+
 .peserta li {
   margin-bottom: 1.5rem;
   position: relative;
@@ -233,6 +239,7 @@ hr {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .peserta li .peserta-profile {
   width: 40%;
   float: left;
@@ -281,6 +288,7 @@ hr {
   margin-top: 20px;
   width: 70%;
 }
+
 .rsvp button:hover {
   background-color: var(--bg);
   border: 1px solid var(--bg);
@@ -302,6 +310,7 @@ footer small a {
   font-weight: bold;
   text-decoration: none;
 }
+
 footer small a:hover {
   color: white;
 }
@@ -317,6 +326,7 @@ footer li a {
   color: white;
   cursor: pointer;
 }
+
 footer li a:hover {
   color: var(--pink);
 }
@@ -344,6 +354,7 @@ footer li a:hover {
   from {
     transform: rotate(0);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -356,20 +367,25 @@ footer li a:hover {
     transform: translateX(-50%) translateY(50px);
   }
 }
+
 /* Laptop */
 @media (max-width: 992px) {
   html {
     font-size: 75%;
   }
-  .simply-countdown > .simply-section {
+
+  .simply-countdown>.simply-section {
     padding: 70px;
   }
+
   .home .heart {
     display: none;
   }
+
   .peserta::before {
     left: 60px;
   }
+
   .peserta li .peserta-image {
     left: 15px;
     margin-left: 45px;
@@ -382,6 +398,7 @@ footer li a:hover {
     float: right;
     margin: 20px;
   }
+
   .peserta li .peserta-profile::before {
     content: "";
     left: -10px;
@@ -395,7 +412,8 @@ footer li a:hover {
   html {
     font-size: 65%;
   }
-  .simply-countdown > .simply-section {
+
+  .simply-countdown>.simply-section {
     padding: 60px;
     margin: 5px;
   }
@@ -403,20 +421,24 @@ footer li a:hover {
   .sticky-top {
     overflow: hidden;
   }
+
   .mynavbar .nav-link {
     text-align: center;
     text-transform: uppercase;
   }
 }
+
 /* Mobile */
 @media (max-width: 576px) {
   html {
     font-size: 70%;
   }
-  .simply-countdown > .simply-section {
+
+  .simply-countdown>.simply-section {
     padding: 40px;
     margin: 3px;
   }
+
   .simply-countdown {
     justify-content: left;
   }
@@ -424,5 +446,14 @@ footer li a:hover {
   .peserta li .peserta-image {
     width: 140px;
     height: 140px;
+  }
+
+  .info h2 {
+    font-size: 4rem;
+    padding-bottom: 30px;
+  }
+
+  .info p {
+    padding-bottom: 30px;
   }
 }
